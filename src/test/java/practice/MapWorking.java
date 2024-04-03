@@ -12,12 +12,9 @@ public class MapWorking {
         map.put('b',4);
         map.put('c',6);
 
-
         for(Map.Entry<Character,Integer> e: map.entrySet()) {
             System.out.println(e);
             System.out.println(e.getKey());
-
-
         }
 
 

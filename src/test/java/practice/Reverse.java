@@ -10,15 +10,15 @@ public class Reverse {
     public static void main(String[] args) {
 
         //printDuplicates("Sabitu Gautam");
-        movZeroes2();
+        //movZeroes2();
         //reverseSentence("I.love.my.india");
         //reverseOnlyalphaChars("S@bi$uG@ut@m");
         //System.out.println(specialPalindrome(8,3));
         //int n[] ={1, 10, 1, 2, 2, 3, 10, 3, 3, 4, 5, 5};
-
         //removeDuplicateNumbers(n);
-
         // printDuplicates("nitin");
+        //revNumber(543);
+        //checkArmstrong(121);
 
 //
 //        String s[] = "i.like.this.program.very.much".split("'\'.'");
@@ -293,7 +293,39 @@ public class Reverse {
         System.out.println("Final array is "+Arrays.toString(arr));
     }
 
-    
+
+    //wap to reverse the given number
+
+    public static void revNumber(int no){
+        //121
+        int rev=0;
+        int rem;
+         while (no!=0){
+             rem = no%10;
+             rev = rev*10+rem;
+             no=no/10;
+         }
+            System.out.println(" reversed no is "+rev);
+
+    }
+
+    public static void checkArmstrong(int no){
+        int rem;
+        int sum=0;
+        int temp = no;
+        while (temp!=0){
+            rem = temp%10;
+            sum= sum+(rem*rem*rem);
+            temp = temp/10;
+        }
+        if(no==sum){
+            System.out.println(no+" Number is a armstrong number");
+        }
+        else {
+            System.out.println(no+" Number is not a armstrong number");
+        }
+
+    }
 
 }
 
