@@ -9,9 +9,9 @@ public class TwoSumProblem {
     public static void main(String[] args) {
         //twoSum(new int[]{2, 12, 5,7,7, 15, 1, 8, 76, 3,6, 6,}, 9);
 
-        //newSum(new int[]{2,30,11,5,13}, 35);
+        newSum(new int[]{2,30,11,5,13}, 35);
 
-        sumOfArray(new int[]{13, 2, 5, 8, 13, 4});
+        //sumOfArray(new int[]{13, 2, 5, 8, 13, 4});
 
     }
     public static int[] twoSum(int[] nums, int target) {

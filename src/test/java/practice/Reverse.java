@@ -19,6 +19,8 @@ public class Reverse {
         // printDuplicates("nitin");
         //revNumber(543);
         //checkArmstrong(121);
+        revOnlyWords("My name is sabitu");
+
 
 //
 //        String s[] = "i.like.this.program.very.much".split("'\'.'");

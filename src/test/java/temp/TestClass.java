@@ -39,7 +39,7 @@ public class TestClass {
 
         //https://www.w3resource.com/java-exercises/basic/java-basic-exercise-199.php
 
-        String [] dict = {"abb", "abc", "xyz", "xyy"};
+      /*  String [] dict = {"abb", "abc", "xyz", "xyy"};
 
         String pattern= "foo";
 
@@ -49,7 +49,7 @@ public class TestClass {
 
 
 
-        }
+        }*/
 
 
 
@@ -77,7 +77,7 @@ public class TestClass {
 */
 
         String str="aabbbcdfghhhhhhdaa";
-        String res="a2b3cdfgh6da2";
+       // String res="a2b3cdfgh6da2";
 
         int count =1;
         String result="";
@@ -96,7 +96,7 @@ public class TestClass {
 
         }
 
-        System.out.println(" output is "+result);
+        System.out.println("output is "+result);
 
 
 
