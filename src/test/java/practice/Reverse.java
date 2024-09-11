@@ -12,14 +12,14 @@ public class Reverse {
         //printDuplicates("Sabitu Gautam");
         //movZeroes2();
         //reverseSentence("I.love.my.india");
-        //reverseOnlyalphaChars("S@bi$uG@ut@m");
+        reverseOnlyalphaChars("S@bi$uG@ut@m");
         //System.out.println(specialPalindrome(8,3));
         //int n[] ={1, 10, 1, 2, 2, 3, 10, 3, 3, 4, 5, 5};
         //removeDuplicateNumbers(n);
         // printDuplicates("nitin");
         //revNumber(543);
         //checkArmstrong(121);
-        revOnlyWords("My name is sabitu");
+        //revOnlyWords("My name is sabitu");
 
 
 //
@@ -166,6 +166,7 @@ public class Reverse {
         System.out.println(st);
     }
 
+    //occurrence of character in string
     public static void printDuplicateUsingMap(String str) {
 
         HashMap<Character, Integer> charMap = new HashMap<>();
@@ -191,7 +192,7 @@ public class Reverse {
 
         //pehle sort karo then ith highest kese bi nikal sakte hai bas array length
         // me se wo minus kardena hai ith position pe jo highest hoga wo aa jaega
-        //int[] arr = {65,96,356,9999,656,1,65,4,6};
+        //int[] arr = {96,23,356,9999,656,1,65,4,6};
 
         //int i;
         //int largest = arr[0];
