@@ -1,6 +1,5 @@
 package practice;
 
-import jdk.nashorn.internal.objects.NativeString;
 
 import java.util.*;
 

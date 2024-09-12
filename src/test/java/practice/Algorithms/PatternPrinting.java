@@ -5,20 +5,20 @@ public class PatternPrinting {
     public static void main(String[] args) {
         // print(5);
         //print2(5);
-        // print3(5);
-        //  print6(5);
-        // print7(5);
+        //print3(5);
+        //print6(5);
+        print7(5);
         //numberCrown(3);
 
         //rightAngleTirangle(4);
         // pattern14(4);
-        // pattern16(4);
+         //pattern16(4);
         //pyramidPattern(5);
         // pattern17(3);
         //pattern18(5);
         //pattern19(4);
-        pattern20(5);
-       // pattern21(4);
+       //pattern20(5);
+       //pattern21(4);
 
 
     }
