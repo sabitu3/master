@@ -19,7 +19,7 @@ public class EvenOdd {
         }
 
         else{
-            System.out.println("number is invalid");
+            System.out.println("number is invalidddd");
         }
 
 
