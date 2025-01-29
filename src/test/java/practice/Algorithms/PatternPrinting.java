@@ -14,7 +14,7 @@ public class PatternPrinting {
         // pattern14(4);
          //pattern16(4);
         pyramidPattern(5);
-        // pattern17(3);
+        //pattern17(3);
         //pattern18(5);
         //pattern19(4);
        //pattern20(5);

@@ -17,7 +17,7 @@ public class StringProblems {
                 count++;
                 continue;
             } else {
-                res = res + count + str.charAt(i);
+                res = res  + str.charAt(i)+count;
                 count = 1;
             }
 

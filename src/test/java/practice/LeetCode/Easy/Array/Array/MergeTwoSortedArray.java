@@ -12,7 +12,7 @@ public class MergeTwoSortedArray {
         int arr2[] = {2, 4, 9, 6, 0, 21};
         int n2 = arr2.length;
         int arr3[] = new int[n1 + n2];
-        // mergeSortedArrayBruteForce(n1,arr1, n2,arr2,arr3);
+        //mergeSortedArrayBruteForce(n1,arr1, n2,arr2,arr3);
         mergeSortedArrayOptimal(arr1, arr2, n1, n2);
         System.out.println("sorted array is " + Arrays.toString(arr1) + Arrays.toString(arr2));
     }
@@ -34,7 +34,7 @@ public class MergeTwoSortedArray {
             j++;
         }
 
-        Arrays.sort(arr3);
+        //Arrays.sort(arr3);
     }
 
     public static void mergeSortedArrayOptimal(int[] arr1, int[] arr2, int n, int m) {

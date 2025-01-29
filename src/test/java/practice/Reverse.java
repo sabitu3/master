@@ -9,12 +9,13 @@ public class Reverse {
     public static void main(String[] args) {
 
         //printDuplicates("Sabitu Gautam");
-        //movZeroes2();
+       // movZeroes2();
         //reverseSentence("I.love.my.india");
-        reverseOnlyalphaChars("S@bi$uG@ut@m");
+        //reverseOnlyalphaChars("S@bi$uG@ut@m");
         //System.out.println(specialPalindrome(8,3));
-        //int n[] ={1, 10, 1, 2, 2, 3, 10, 3, 3, 4, 5, 5};
-        //removeDuplicateNumbers(n);
+//        int n[] ={1, 10, 1, 2, 2, 3, 10, 3, 3, 4, 5, 5};
+//        removeDuplicateNumbers(n);
+       // removeDuplicatechar("missipI");
         // printDuplicates("nitin");
         //revNumber(543);
         //checkArmstrong(121);
@@ -285,13 +286,14 @@ public class Reverse {
                 count++;
             }
         }
+        System.out.println("count is ==> "+count);
 
         while (count<arr.length){
             arr[count]=0;
             count++;
-
         }
 
+        System.out.println("count is ==> 222 "+count);
         System.out.println("Final array is "+Arrays.toString(arr));
     }
 
