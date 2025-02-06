@@ -10,12 +10,12 @@ public class Reverse {
 
         //printDuplicates("Sabitu Gautam");
        // movZeroes2();
-        //reverseSentence("I.love.my.india");
+        reverseSentence("I.love.my.india");
         //reverseOnlyalphaChars("S@bi$uG@ut@m");
         //System.out.println(specialPalindrome(8,3));
 //        int n[] ={1, 10, 1, 2, 2, 3, 10, 3, 3, 4, 5, 5};
 //        removeDuplicateNumbers(n);
-       // removeDuplicatechar("missipI");
+       removeDuplicatechar("missipI");
         // printDuplicates("nitin");
         //revNumber(543);
         //checkArmstrong(121);
@@ -74,7 +74,6 @@ public class Reverse {
 
         for (int i = res.length - 1; i >= 0; i--) {
             System.out.println("array is " + res[i]);
-
             str = str + " " + res[i];
         }
         System.out.println("Reversed sentence is " + str);
